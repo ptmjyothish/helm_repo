@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: stage-mysql-slave-pv
+  namespace: stage
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteMany
+  nfs:
+    server: 10.146.0.4
+    path: "/opt/NFS_SHARE/stage1/stage_mysql_slave"
