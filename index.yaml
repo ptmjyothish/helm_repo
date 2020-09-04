@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v1
     appVersion: 8.0.21
-    created: "2020-09-04T09:57:33.085086213Z"
+    created: "2020-09-04T10:02:42.641700909Z"
     description: Chart to create a Highly available MySQL cluster
     digest: 031a1e9caf12ca8338fa741f56466b9725ddb5466421df4b863be77ebf446d92
     home: https://mysql.com
@@ -28,7 +28,7 @@ entries:
   wordpress:
   - apiVersion: v1
     appVersion: 5.3.2
-    created: "2020-09-04T09:57:33.089268739Z"
+    created: "2020-09-04T10:02:42.646926942Z"
     dependencies:
     - condition: mariadb.enabled
       name: mariadb
@@ -38,7 +38,7 @@ entries:
       version: 7.x.x
     deprecated: true
     description: DEPRECATED Web publishing platform for building blogs and websites.
-    digest: 14008010c4197ba3dae8b901d198aa40e90b0fcb6ac54c306e0039d51b5fc62a
+    digest: 07b1fbb61905011ab4a06e1a30047ebcb0ad165f7b90da306f1e499ea2548216
     home: http://www.wordpress.com/
     icon: https://bitnami.com/assets/stacks/wordpress/img/wordpress-stack-220x234.png
     keywords:
@@ -55,4 +55,4 @@ entries:
     urls:
     - wordpress-9.0.3.tgz
     version: 9.0.3
-generated: "2020-09-04T09:57:33.082493773Z"
+generated: "2020-09-04T10:02:42.636112552Z"
