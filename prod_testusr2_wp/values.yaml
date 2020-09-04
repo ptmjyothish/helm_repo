@@ -394,7 +394,7 @@ mariadb:
 externalDatabase:
   ## Database host
   ##
-  host: 10.111.29.83
+  host: 10.101.139.100
 
   ## non-root Username for Wordpress Database
   ##
